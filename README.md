@@ -8,8 +8,14 @@ Modelling objective: To build a machine learning model to predict factors associ
 
 Target variable: Diagnosis (‘Yes’ or ‘No’)
 
-Oversampling via SMOTE is done as target variable is imbalanced
-	
-Gradient Boost classifier achieved the highest accuracy at 94%.
+Oversampling via SMOTE is done as target variable is imbalanced, only 5.18% of the patient has asthma
 
-Predictors of asthma attack: 1) Chest_tightness, 2) Exercise_induced, 3) Shortness_of_Breath. 
+As dataset is highly imbalanced, AUC and F1 score is used to decide on the accuracy of the Prediction model
+
+AdaBoost Classifier model: AUC = 50.41%, it is selected as the final model for prediction
+
+Predictors for Asthma attacks: 1) Chest Tightness, Coughing, Family History, Wheezing, Night time symptoms, Shortness Of Breadth
+	
+
+
+
