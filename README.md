@@ -8,14 +8,9 @@ Modelling objective: To build a machine learning model to predict factors associ
 
 Target variable: Diagnosis (‘Yes’ or ‘No’)
 
-Oversampling via SMOTE is done as target variable is imbalanced, only 5.18% of the patient has asthma
+As dataset is highly imbalanced, AUC scores are used to decide on the accuracy of the Prediction model
 
-As dataset is highly imbalanced, AUC and F1 score is used to decide on the accuracy of the Prediction model
+XGBoost Classifier model: AUC = 0.5, it is selected as the final model for prediction
 
-AdaBoost Classifier model: AUC = 50.41%, it is selected as the final model for prediction
-
-Predictors for Asthma attacks: 1) Chest Tightness, Coughing, Family History, Wheezing, Night time symptoms, Shortness Of Breadth
-	
-
-
+Predictors for asthma triggers are 1) Smoking, 2)Shortness of Breath, 4) Pet Allery, 5) Chest Tightness
 
