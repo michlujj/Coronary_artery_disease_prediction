@@ -1,16 +1,18 @@
-# asthma_attack_prediction
+Coronary Artery disease prediction
 
-Dataset contains health information of patients’ diagnosis with Asthma.
+Dataset contains medical records of patients’ diagnosis with coronary artery disease for a hospital .
 
-It includes demographic details, lifestyle factors, environmental and allergy factors, medical history, clinical measurements and symptoms.
+It includes demographics information, medical history, clinical measurements and symptoms.
 
-Modelling objective: To build a machine learning model to predict factors associated with asthma attacks.
+Modelling objective: To build a machine learning model to predict factors associated with Coronary artery diesease.
 
-Target variable: Diagnosis (‘Yes’ or ‘No’)
+Target variable: Survive (1 or 0)
 
-As dataset is highly imbalanced, AUC scores are used to decide on the accuracy of the Prediction model
+As dataset is imbalanced, AUC scores are used to decide on the accuracy of the Prediction model
 
-XGBoost Classifier model: AUC = 0.5, it is selected as the final model for prediction
+Random Forest Classifier model: AUC = 0.985, it is selected as the final model for prediction
 
-Predictors for asthma triggers are 1) Smoking, 2)Shortness of Breath, 4) Pet Allery, 5) Chest Tightness
+Predictors for Coronary Artery diseases in patients are 1) Creatinine, 2) Weight, 3) Pet Allery, 4) Creatine phosphokinase,
+
+5) Age
 
